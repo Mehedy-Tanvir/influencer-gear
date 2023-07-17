@@ -129,6 +129,7 @@ nav {
 .popular {
   padding-left: 196px;
   padding-right: 196px;
+  margin-bottom: 100px;
 }
 
 .popular-title {
@@ -199,4 +200,25 @@ nav {
   letter-spacing: 0.252px;
   text-align: left;
   padding-left: 20px;
+}
+.see-more {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 50px;
+  gap: 2px;
+}
+.see-more p {
+  color: rgba(224, 44, 109, 0.87);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: right;
+}
+.see-more img {
+  width: 16px;
+  height: 14.00125px;
+  flex-shrink: 0;
 }
