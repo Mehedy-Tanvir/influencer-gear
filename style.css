@@ -254,3 +254,37 @@ nav {
 .btn-feature {
   border-radius: 0%;
 }
+/* footer styles */
+footer {
+  background-color: #0a0826;
+  height: 239px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+footer p {
+  color: var(--text-gray-300, #d9dbe1);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  text-align: center;
+  margin-top: 3px;
+}
+.footer-logo {
+  text-align: center;
+  margin-top: 3px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
