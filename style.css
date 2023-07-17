@@ -123,3 +123,80 @@ nav {
   border-right: 0;
   border-image-slice: 1;
 }
+/* main section styles */
+
+/* popular section styles */
+.popular {
+  padding-left: 196px;
+  padding-right: 196px;
+}
+
+.popular-title {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 250% */
+  text-align: center;
+}
+.popular-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.popular-card {
+  height: 476px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding-top: 17px;
+  text-align: center;
+}
+.img-card {
+  width: 300px;
+}
+.card-title {
+  color: #18191f;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 142.857% */
+  margin-top: 16px;
+  text-align: left;
+  padding-left: 20px;
+}
+.card-price {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  text-align: left;
+  padding-left: 20px;
+}
+.card-rating {
+  color: #5e6366;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.1px;
+  text-align: left;
+  padding-left: 20px;
+}
+.card-description {
+  color: var(--gray-50, #787885);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143%; /* 20.02px */
+  letter-spacing: 0.252px;
+  text-align: left;
+  padding-left: 20px;
+}
