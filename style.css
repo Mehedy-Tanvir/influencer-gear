@@ -288,3 +288,105 @@ footer p {
   justify-content: center;
   gap: 16px;
 }
+.hide {
+  display: none;
+}
+/* responsive styles */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  .hide {
+    display: block;
+  }
+  header {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  nav {
+    justify-content: center;
+    gap: 59px;
+    margin-top: 35px;
+  }
+  .cart,
+  .menu-img {
+    width: 24px;
+  }
+  .nav-title {
+    font-size: 16px;
+  }
+  /* banner section */
+  .banner {
+    flex-direction: column-reverse;
+    gap: 14px;
+    justify-content: center;
+  }
+  .banner-img {
+    width: 257px;
+    height: 257px;
+  }
+  .banner-img img {
+    max-width: 202px;
+  }
+  .banner-title {
+    font-size: 28px;
+    text-align: center;
+    line-height: normal;
+  }
+  .banner-description {
+    font-size: 14px;
+    max-width: 321px;
+    text-align: center;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  /* brand section */
+  .brand {
+    width: 360px;
+    flex-wrap: wrap;
+    gap: 31.8px;
+    border: 0;
+    margin-bottom: 54.37px;
+  }
+  /* popular section */
+  .popular {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+  }
+  .popular-title {
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+  .popular-grid {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 15px;
+  }
+  /* feature section */
+  .feature {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+  }
+  .feature-content {
+    text-align: center;
+  }
+  .feature-title {
+    margin-top: 50px;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+  }
+  .feature-description {
+    width: 329px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .feature-img {
+    width: 299px;
+  }
+  .mobile-hide {
+    display: none;
+  }
+}
